@@ -32,6 +32,7 @@ public class HueLightAutoOff : IAutomationTask
                     await httpClient.PutAsync("http://hue-bridge.localnet/api/lfRks8huc0jr-AIaa0l9iFdbatH38yPCsvEqUoh1/lights/1/state", content);
                     await httpClient.PutAsync("http://hue-bridge.localnet/api/lfRks8huc0jr-AIaa0l9iFdbatH38yPCsvEqUoh1/lights/2/state", content);
                     await httpClient.PutAsync("http://hue-bridge.localnet/api/lfRks8huc0jr-AIaa0l9iFdbatH38yPCsvEqUoh1/lights/3/state", content);
+                    await httpClient.PutAsync("http://hue-bridge.localnet/api/lfRks8huc0jr-AIaa0l9iFdbatH38yPCsvEqUoh1/lights/4/state", content);
                 }
             }
         }
